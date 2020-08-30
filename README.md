@@ -10,6 +10,9 @@ https://github.com/lyft/l5kit/blob/master/competition.md
 https://github.com/lyft/l5kit/blob/master/data_format.md
 
 
+### numpy structured arrays
+https://numpy.org/doc/stable/user/basics.rec.html
+
 ### pytorch
 https://pytorch.org/
 
