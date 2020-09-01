@@ -16,3 +16,5 @@ https://numpy.org/doc/stable/user/basics.rec.html
 ### pytorch
 https://pytorch.org/
 
+### ResNet in PyTorch - GitHub
+https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
