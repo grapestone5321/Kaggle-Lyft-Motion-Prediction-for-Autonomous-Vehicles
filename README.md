@@ -1,7 +1,12 @@
 # Kaggle-Lyft-Motion-Prediction-for-Autonomous-Vehicles
 Kaggle-Featured Code Competition
 
+## Task
+In this competition, you’ll apply your data science skills to build motion prediction models for self-driving vehicles. 
 
+You'll have access to the largest Prediction Dataset ever released to train and test your models. 
+
+Your knowledge of machine learning will then be required to predict how cars, cyclists,and pedestrians move in the AV's environment.
 
 
 
