@@ -32,6 +32,7 @@ https://pytorch.org/tutorials/beginner/saving_loading_models.html
 https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
 
 
+## Data and EDA
 ### Files:
 - aerial_map - an aerial map used when rasterisation is performed with mode "py_satellite"
 - semantic_map - a high definition semantic map used when rasterisation is performed with mode "py_semantic"
