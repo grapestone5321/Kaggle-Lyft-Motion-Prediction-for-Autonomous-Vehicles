@@ -44,5 +44,17 @@ https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
 - *sample_submission.csv - two sample submissions, one in multi-mode format, the other in single-mode
 
 ## L5kit
-### Overview
+### 1 Overview
 https://github.com/lyft/l5kit/blob/master/README.md
+
+### 2 Competition
+https://github.com/lyft/l5kit/blob/master/competition.md
+
+### 3 Coordinate Systems in L5Kit
+https://github.com/lyft/l5kit/blob/master/coords_systems.md
+
+### 4 Dataset Formats
+https://github.com/lyft/l5kit/blob/master/data_format.md
+
+### 5 How to contribute
+https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
