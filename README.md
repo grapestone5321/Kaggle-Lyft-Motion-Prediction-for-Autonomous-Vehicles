@@ -78,3 +78,17 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
        - batch size   16 :
 ## 3) Models
        - resnet 50, etc.
+
+
+## Kaggle-PyTorch-Baseline
+### 1 Settup Dependencies
+### 2 Load Datasets
+### 3 Define a Model (CNN)
+Model
+Parameters
+### 4 Train the Model
+Save the model
+### 5 Prediction
+load the model
+Test the model
+### 6 Submit
