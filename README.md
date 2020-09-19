@@ -86,12 +86,12 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
        - lr   1e-4 :
 ## 5) Optimizer 
        - optimizer   Adam : LB 1584.348
-       - optimizer   Adam :
-       - optimizer   Adam :
+       - optimizer   SGD  :
+       - optimizer   ASGD :
 ## 6) Models
-       - resnet 50  :  LB 1584.348
-       - resnet 18  :  
-       - etc.
+       - Resnet 50  :  LB 1584.348
+       - Resnet 18  :  
+       - EfficientNet  :
        
 ------
 
