@@ -108,9 +108,13 @@ Submission file must be named submission.csv
 ### 3 Define a Model (CNN)
 - Model
 - Parameters
-### 4 Train the Model --- W/O kaggle notebook. Because it takes much time (>9 hours)
+### 4 Train the Model --- Takes much time (>9 hours)
+-> Separate from Teast/Prediction, 
+
+-> W/O kaggle notebook. 
 - Save the model
-### 5 Prediction  --- W/ kaggle notebook
+### 5 Prediction
+-> W/ kaggle notebook
 - load the model
 - Test the model
 ### 6 Submit
