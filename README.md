@@ -99,7 +99,9 @@ Submission file must be named submission.csv
 
 ------
 
-# Lyft Conpetition Plan/strategy
+# Lyft Conpetition Plan/strategy for higher LB Score
+
+## Pytorch Baseline
 
 ### 1 Settup Dependencies
 ### 2 Load Datasets
@@ -112,3 +114,15 @@ Submission file must be named submission.csv
 - load the model
 - Test the model
 ### 6 Submit
+
+## Ensamble Update
+### Dependency of weights on LB Score
+- weights = [0.3, 0.7]    LB:46.603
+- weights = [0.35, 0.65]  LB:46.370
+- weights = [0.4, 0.6]    LB:46.189   ---Original Score
+- weights = [0.45, 0.55]  LB:46.082   ---Got Best Score
+- weights = [0.5, 0.5]    LB:46.331
+
+
+
+
