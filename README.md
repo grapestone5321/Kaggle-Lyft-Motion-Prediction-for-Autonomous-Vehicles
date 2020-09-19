@@ -73,16 +73,26 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
        - raster size (300, 300)  :  LB 2354.393
        - raster size (224, 224)  :  LB 1584.348
 ## 2) Batch size for training
-       - batch size   12 :  LB 1584.348   #raster size (224, 224), num_steps 10,000 
+       - batch size   12 :  LB 1584.348           #raster size (224, 224), num_steps 10,000 
        - batch size   32 :
        - batch size   64 :   evaluating
 ## 3) num_steps for training 
-       - num_steps   10,000 : LB 1584.348  #raster size (224, 224), batch size 12
+       - num_steps   10,000 : LB 1584.348         #raster size (224, 224), batch size 12
        - num_steps   15,000 :
        - num_steps   20,000 :
-## 4) Models
-       - resnet 50, resnet 18, etc.
-
+## 4) learning rate 
+       - lr   1e-2 : 
+       - lr   1e-3 : LB 1584.348
+       - lr   1e-4 :
+## 5) Optimizer 
+       - optimizer   Adam : LB 1584.348
+       - optimizer   Adam :
+       - optimizer   Adam :
+## 6) Models
+       - resnet 50  :  LB 1584.348
+       - resnet 18  :  
+       - etc.
+       
 ------
 
 # Code Requirements
