@@ -93,9 +93,13 @@ load the model
 Test the model
 ### 6 Submit
 
-## Code Requirements
-### This is a Code Competition
-Submissions to this competition must be made through Notebooks. Please note that for this competition training is not required in Notebooks.
+------
+
+# Code Requirements
+## This is a Code Competition
+Submissions to this competition must be made through Notebooks. 
+
+### Please note that for this competition training is not required in Notebooks.
 
 In order for the "Submit to Competition" button to be active after a commit, the following conditions must be met:
 
@@ -103,5 +107,6 @@ In order for the "Submit to Competition" button to be active after a commit, the
 - GPU Notebook <= 9 hours run-time
 - TPU Notebook <= 3 hours run-time
 
-Freely & publicly available external data is allowed, including pre-trained models
+Freely & publicly available external data is allowed, including pre-trained models.
+
 Submission file must be named submission.csv
