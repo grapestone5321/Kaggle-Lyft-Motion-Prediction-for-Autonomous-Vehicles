@@ -79,20 +79,6 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 ## 3) Models
        - resnet 50, etc.
 
-
-## Kaggle-PyTorch-Baseline
-### 1 Settup Dependencies
-### 2 Load Datasets
-### 3 Define a Model (CNN)
-Model
-Parameters
-### 4 Train the Model
-Save the model
-### 5 Prediction
-load the model
-Test the model
-### 6 Submit
-
 ------
 
 # Code Requirements
@@ -110,3 +96,19 @@ In order for the "Submit to Competition" button to be active after a commit, the
 Freely & publicly available external data is allowed, including pre-trained models.
 
 Submission file must be named submission.csv
+
+------
+
+# Lyft Conpetition Plan/strategy
+
+### 1 Settup Dependencies
+### 2 Load Datasets
+### 3 Define a Model (CNN)
+- Model
+- Parameters
+### 4 Train the Model --- W/O kaggle notebook. Because it takes much time (>9 hours)
+- Save the model
+### 5 Prediction  --- W/ kaggle notebook
+- load the model
+- Test the model
+### 6 Submit
