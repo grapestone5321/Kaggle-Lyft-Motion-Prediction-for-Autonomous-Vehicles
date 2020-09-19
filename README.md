@@ -69,15 +69,19 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 # Dependency of parameters/models on leaderboard score
 
 ## 1) raster size
-       - raster size (384, 384)  :  Score 3593.289
-       - raster size (300, 300)  :  Score 2354.393
-       - raster size (224, 224)  :   evaluating
-## 2) Batch size 
-       - batch size    8 :
-       - batch size   12 :
-       - batch size   16 :
-## 3) Models
-       - resnet 50, etc.
+       - raster size (384, 384)  :  LB 3593.289
+       - raster size (300, 300)  :  LB 2354.393
+       - raster size (224, 224)  :  LB 1584.348
+## 2) Batch size for training
+       - batch size   12 :  LB 1584.348   #raster size (224, 224), num_steps 10,000 
+       - batch size   32 :
+       - batch size   64 :   evaluating
+## 3) num_steps for training 
+       - num_steps   10,000 : LB 1584.348  #raster size (224, 224), batch size 12
+       - num_steps   15,000 :
+       - num_steps   20,000 :
+## 4) Models
+       - resnet 50, resnet 18, etc.
 
 ------
 
