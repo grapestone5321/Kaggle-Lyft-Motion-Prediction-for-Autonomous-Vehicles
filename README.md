@@ -138,7 +138,11 @@ Submission file must be named submission.csv
 - weights = [0.3, 0.7]    LB:46.603
 - weights = [0.35, 0.65]  LB:46.370
 - weights = [0.4, 0.6]    LB:46.189   ---Original Score
-- weights = [0.425, 0.575]  LB:46.46.069   ---Got Best Score
+- weights = [0.420, 0.580]  LB:46.084
+- weights = [0.425, 0.575]  LB:46.069
+- weights = [0.430, 0.570]  LB:46.061  
+- weights = [0.435, 0.565]  LB:46.059   ---Got Best Score
+- weights = [0.440, 0.560]  LB:46.062
 - weights = [0.45, 0.55]  LB:46.082   
 - weights = [0.475, 0.525]  LB:46.179  
 - weights = [0.5, 0.5]    LB:46.331
