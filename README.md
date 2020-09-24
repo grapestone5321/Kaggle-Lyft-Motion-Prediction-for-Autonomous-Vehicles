@@ -122,9 +122,9 @@ Submission file must be named submission.csv
 - Model
 - Parameters
 ### 4 Train the Model --- Takes much time (>9 hours)
--> Separate from Teast/Prediction, 
-
+-> Separate Training from Testing/Prediction
 -> W/O kaggle notebook. 
+
 - Save the model
 ### 5 Prediction
 -> W/ kaggle notebook
