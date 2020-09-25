@@ -162,5 +162,8 @@ Submission file must be named submission.csv
 ### 2 and 3
 - weights = [0.5, 0.5]    LB:132.087
 
+### 1 and 4
+- weights = [0.1, 0.9]    LB:33.756
+
 
 
