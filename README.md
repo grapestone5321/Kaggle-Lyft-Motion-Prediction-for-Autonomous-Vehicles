@@ -165,6 +165,6 @@ Submission file must be named submission.csv
 ### 1 and 4
 - weights = [0.105, 0.895]   LB:34.058
 - weights = [0.1, 0.9]    LB:33.756
-- weights = [0.095, 0.905]   LB:33.748  ---Got Best Score
-
-
+- weights = [0.095, 0.905]   LB:33.745 
+- weights = [0.085, 0.915]  LB:33.726  ---Got Best Score
+- weights = [0.05, 0.95]  LB:33.748
