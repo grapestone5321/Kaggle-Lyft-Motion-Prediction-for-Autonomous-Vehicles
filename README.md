@@ -42,7 +42,7 @@ Kaggle-Featured Code Competition
 
 
 # Code Requirements
-## This is a Code Competition
+## This is a Code Competition:
 ### 1. Submissions to this competition must be made through Notebooks. 
 
 ### 2. Please note that for this competition training is not required in Notebooks.
