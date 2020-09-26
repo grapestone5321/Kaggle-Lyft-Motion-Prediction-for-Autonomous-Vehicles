@@ -11,49 +11,6 @@ Kaggle-Featured Code Competition
 
 - Your knowledge of machine learning will then be required to predict how cars, cyclists,and pedestrians move in the AV's environment.
 
-# References
-
-### metrics page in the L5Kit repository
-https://github.com/lyft/l5kit/blob/master/competition.md
-
-
-### Dataset Formats
-https://github.com/lyft/l5kit/blob/master/data_format.md
-
-
-### numpy structured arrays
-https://numpy.org/doc/stable/user/basics.rec.html
-
-### pytorch
-https://pytorch.org/
-
-
-### SAVING AND LOADING MODELS
-https://pytorch.org/tutorials/beginner/saving_loading_models.html
-
-### ResNet in PyTorch - GitHub
-https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
-
-
-### EfficientNet: Improving Accuracy and Efficiency through AutoML and Model Scaling
-https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html
-
-
-## L5kit
-### 1 Overview
-https://github.com/lyft/l5kit/blob/master/README.md
-
-### 2 Competition
-https://github.com/lyft/l5kit/blob/master/competition.md
-
-### 3 Coordinate Systems in L5Kit
-https://github.com/lyft/l5kit/blob/master/coords_systems.md
-
-### 4 Dataset Formats
-https://github.com/lyft/l5kit/blob/master/data_format.md
-
-### 5 How to contribute
-https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 
 
@@ -99,6 +56,52 @@ In order for the "Submit to Competition" button to be active after a commit, the
 Freely & publicly available external data is allowed, including pre-trained models.
 
 Submission file must be named submission.csv
+
+# References
+
+### metrics page in the L5Kit repository
+https://github.com/lyft/l5kit/blob/master/competition.md
+
+
+### Dataset Formats
+https://github.com/lyft/l5kit/blob/master/data_format.md
+
+
+### numpy structured arrays
+https://numpy.org/doc/stable/user/basics.rec.html
+
+### pytorch
+https://pytorch.org/
+
+
+### SAVING AND LOADING MODELS
+https://pytorch.org/tutorials/beginner/saving_loading_models.html
+
+### ResNet in PyTorch - GitHub
+https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
+
+
+### EfficientNet: Improving Accuracy and Efficiency through AutoML and Model Scaling
+https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html
+
+
+## L5kit
+### 1 Overview
+https://github.com/lyft/l5kit/blob/master/README.md
+
+### 2 Competition
+https://github.com/lyft/l5kit/blob/master/competition.md
+
+### 3 Coordinate Systems in L5Kit
+https://github.com/lyft/l5kit/blob/master/coords_systems.md
+
+### 4 Dataset Formats
+https://github.com/lyft/l5kit/blob/master/data_format.md
+
+### 5 How to contribute
+https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
+
+
 
 # Kaggle Lyft Competition Update
 ## Lyft Competition Plan/strategy for higher LB Score
