@@ -67,8 +67,46 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 - 1. Pytorch Update 
 - 2. Ensamble Update
 
+------
+
+# Code Requirements
+## This is a Code Competition
+Submissions to this competition must be made through Notebooks. 
+
+### Please note that for this competition training is not required in Notebooks.
+
+In order for the "Submit to Competition" button to be active after a commit, the following conditions must be met:
+
+- CPU Notebook <= 9 hours run-time
+- GPU Notebook <= 9 hours run-time
+- TPU Notebook <= 3 hours run-time
+
+Freely & publicly available external data is allowed, including pre-trained models.
+
+Submission file must be named submission.csv
 
 # 1. Pytorch Update
+
+## Lyft Competition Plan/strategy for higher LB Score
+
+## Pytorch Baseline
+
+### 1 Settup Dependencies
+### 2 Load Datasets
+### 3 Define a Model (CNN)
+- Model
+- Parameters
+### 4 Train the Model --- Takes much time (>9 hours)
+-> Separate Training from Testing/Prediction
+-> W/O kaggle notebook. 
+
+- Save the model
+### 5 Prediction
+-> W/ kaggle notebook
+- load the model
+- Test the model
+### 6 Submit
+
 
 ## Dependency of parameters/models on leaderboard score
 
@@ -98,44 +136,6 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
        - EfficientNet  :
        
 ------
-
-# Code Requirements
-## This is a Code Competition
-Submissions to this competition must be made through Notebooks. 
-
-### Please note that for this competition training is not required in Notebooks.
-
-In order for the "Submit to Competition" button to be active after a commit, the following conditions must be met:
-
-- CPU Notebook <= 9 hours run-time
-- GPU Notebook <= 9 hours run-time
-- TPU Notebook <= 3 hours run-time
-
-Freely & publicly available external data is allowed, including pre-trained models.
-
-Submission file must be named submission.csv
-
-------
-
-# Lyft Conpetition Plan/strategy for higher LB Score
-
-## Pytorch Baseline
-
-### 1 Settup Dependencies
-### 2 Load Datasets
-### 3 Define a Model (CNN)
-- Model
-- Parameters
-### 4 Train the Model --- Takes much time (>9 hours)
--> Separate Training from Testing/Prediction
--> W/O kaggle notebook. 
-
-- Save the model
-### 5 Prediction
--> W/ kaggle notebook
-- load the model
-- Test the model
-### 6 Submit
 
 # 2. Ensamble Update
 ### Dependency of weights on LB Score
