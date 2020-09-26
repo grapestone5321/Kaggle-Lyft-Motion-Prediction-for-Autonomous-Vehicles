@@ -96,6 +96,7 @@ Freely & publicly available external data is allowed, including pre-trained mode
 Submission file must be named submission.csv
 
 # Kaggle Lyft Competition Update
+## Lyft Competition Plan/strategy for higher LB Score
 - 1. Pytorch Update 
 - 2. Ensamble Update
 
@@ -103,16 +104,9 @@ Submission file must be named submission.csv
 
 # 1. Pytorch Update
 
-## Issue --- Takes much time to compute (>9 hours)
--> W/ kaggle notebook is required in Testing/Prediction
-
-### ideas:
--> Separate Training from Testing/Prediction
-
--> W/O kaggle notebook in Training
 
 
-## Lyft Competition Plan/strategy for higher LB Score
+
 
 ## Pytorch process
 
@@ -158,7 +152,16 @@ Submission file must be named submission.csv
        - Resnet 50  :  LB 1584.348
        - Resnet 18  :  
        - EfficientNet  :
-       
+
+
+## Issue --- Takes much time to compute (>9 hours)
+-> W/ kaggle notebook is required in Testing/Prediction
+
+### ideas:
+-> Separate Training from Testing/Prediction
+
+-> W/O kaggle notebook in Training
+
 ------
 
 # 2. Ensamble Update
