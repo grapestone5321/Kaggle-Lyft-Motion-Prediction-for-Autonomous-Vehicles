@@ -193,6 +193,8 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 # 2. Ensamble Update
 ### Dependency of weights on LB Score
+- Combine solutions [1, 2, 3, 4]
+
 ### 1 and 2
 - weights = [0.3, 0.7]    LB:46.603
 - weights = [0.35, 0.65]  LB:46.370
