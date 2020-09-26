@@ -106,7 +106,7 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 # Lyft Competition Plan/strategy for higher LB Score
 ### 1. Establish the model/algorithm
-- pytorch    ---  improve the baseline of Peter’s
+- pytorch    ---  improve the baseline of Peter’s  -> primary process
 - keras     ---  improve the baseline of GoSabres’s
 - tensorflow   --- improve the baseline of Ashi’s
 
