@@ -43,9 +43,9 @@ Kaggle-Featured Code Competition
 
 # Code Requirements
 ## This is a Code Competition
-Submissions to this competition must be made through Notebooks. 
+### 1. Submissions to this competition must be made through Notebooks. 
 
-### Please note that for this competition training is not required in Notebooks.
+### 2. Please note that for this competition training is not required in Notebooks.
 
 In order for the "Submit to Competition" button to be active after a commit, the following conditions must be met:
 
