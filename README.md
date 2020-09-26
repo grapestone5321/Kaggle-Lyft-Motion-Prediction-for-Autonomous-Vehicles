@@ -97,8 +97,13 @@ Submission file must be named submission.csv
 
 # Kaggle Lyft Competition Update
 ## Lyft Competition Plan/strategy for higher LB Score
-- 1. Pytorch Update 
-- 2. Ensamble Update
+### 1. Pytorch Update 
+
+- Dependency of parameters/models on LB score
+
+- Current Issue
+
+### 2. Ensamble Update
 
 ------
 
@@ -126,7 +131,7 @@ Submission file must be named submission.csv
 ### 6 Submit
 
 
-## Dependency of parameters/models on leaderboard score
+## Dependency of parameters/models on LB score
 
 ## 1) raster size
        - raster size (384, 384)  :  LB 3593.289
