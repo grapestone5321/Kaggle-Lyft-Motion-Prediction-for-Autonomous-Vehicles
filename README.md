@@ -105,7 +105,7 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 # Kaggle Lyft Competition Update
 ## Lyft Competition Plan/strategy for higher LB Score
-### 1. Pytorch Update 
+### 1. Pytorch Process Update 
 - Pytorch process
 
 - Dependency of parameters/models on LB score
