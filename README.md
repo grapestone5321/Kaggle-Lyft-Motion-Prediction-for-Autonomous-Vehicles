@@ -34,6 +34,11 @@ https://pytorch.org/tutorials/beginner/saving_loading_models.html
 ### ResNet in PyTorch - GitHub
 https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
 
+
+### EfficientNet: Improving Accuracy and Efficiency through AutoML and Model Scaling
+https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html
+
+
 ## L5kit
 ### 1 Overview
 https://github.com/lyft/l5kit/blob/master/README.md
@@ -155,8 +160,8 @@ Submission file must be named submission.csv
        - optimizer   SGD  :
        - optimizer   ASGD :
 ## 6) Models
-       - Resnet 50  :  LB 1584.348
        - Resnet 18  :  
+       - Resnet 50  :  LB 1584.348
        - EfficientNet  :
 
 
