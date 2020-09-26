@@ -63,9 +63,14 @@ https://github.com/lyft/l5kit/blob/master/data_format.md
 https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 
-## Raster
+# Kaggle Lyft Compatition
+- Pytorch Update 
+- Ensamble Update
 
-# Dependency of parameters/models on leaderboard score
+
+# 1. Pytorch Update
+
+## Dependency of parameters/models on leaderboard score
 
 ## 1) raster size
        - raster size (384, 384)  :  LB 3593.289
@@ -132,7 +137,7 @@ Submission file must be named submission.csv
 - Test the model
 ### 6 Submit
 
-## Ensamble Update
+# 2. Ensamble Update
 ### Dependency of weights on LB Score
 ### 1 and 2
 - weights = [0.3, 0.7]    LB:46.603
