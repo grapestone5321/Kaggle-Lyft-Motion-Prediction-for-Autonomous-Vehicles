@@ -135,7 +135,8 @@ Submission file must be named submission.csv
 ## 2) Batch size for training
        - batch size   12 :  LB 1584.348           #raster size (224, 224), num_steps 10,000 
        - batch size   32 :
-       - batch size   64 :   evaluating
+       - batch size   64 :   evaluating --> Took much time to compute (>9 hours)
+
 ## 3) num_steps for training 
        - num_steps   10,000 : LB 1584.348         #raster size (224, 224), batch size 12
        - num_steps   15,000 :
@@ -154,10 +155,12 @@ Submission file must be named submission.csv
        - EfficientNet  :
 
 
-## Issue --- Takes much time to compute (>9 hours)
+# Current Issue
+### --- Takes much time to compute (>9 hours)
+### ideas:
+
 -> W/ kaggle notebook is required in Testing/Prediction
 
-### ideas:
 -> Separate Training from Testing/Prediction
 
 -> W/O kaggle notebook in Training
