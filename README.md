@@ -4,14 +4,14 @@ Kaggle-Featured Code Competition
 
 
 
-## Task
-In this competition, you’ll apply your data science skills to build motion prediction models for self-driving vehicles. 
+# Task
+### In this competition, you’ll apply your data science skills to build motion prediction models for self-driving vehicles. 
 
-You'll have access to the largest Prediction Dataset ever released to train and test your models. 
+### You'll have access to the largest Prediction Dataset ever released to train and test your models. 
 
-Your knowledge of machine learning will then be required to predict how cars, cyclists,and pedestrians move in the AV's environment.
+### Your knowledge of machine learning will then be required to predict how cars, cyclists,and pedestrians move in the AV's environment.
 
-
+# References
 
 ### metrics page in the L5Kit repository
 https://github.com/lyft/l5kit/blob/master/competition.md
@@ -34,18 +34,6 @@ https://pytorch.org/tutorials/beginner/saving_loading_models.html
 ### ResNet in PyTorch - GitHub
 https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
 
-
-## Data and EDA
-### Files:
-- aerial_map - an aerial map used when rasterisation is performed with mode "py_satellite"
-- semantic_map - a high definition semantic map used when rasterisation is performed with mode "py_semantic"
-- sample.zarr - a small sample set, designed for exploration
-- train.zarr - the training set, in .zarr format
-- validate.zarr - a validation set (roughly the size of train)
-- test.csv - the test set, in .zarr format
-- mask.npz - a boolean mask for the test set. All and only the agents included in the mask should be submitted
-- *sample_submission.csv - two sample submissions, one in multi-mode format, the other in single-mode
-
 ## L5kit
 ### 1 Overview
 https://github.com/lyft/l5kit/blob/master/README.md
@@ -63,11 +51,33 @@ https://github.com/lyft/l5kit/blob/master/data_format.md
 https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 
-# Kaggle Lyft Competition Update
-- 1. Pytorch Update 
-- 2. Ensamble Update
 
-------
+# Data
+
+### The dataset is structured as follows:       
+        scenes,   aerial_map,   semantic_map
+   ### Under scenes, we have:
+        sample.zarr,   test.zarr,   train.zarr,   validate.zarr,   mask.npz *   
+   ### Each .zarr file contains a set of:
+        scenes,   frames,   agents,   traffic_light_faces,   agents_mask**  
+ 
+  *:   In test, the mask (provided in files as mask.npz) masks out any test object for which predictions are NOT required.
+  
+**:   A mask that (for train and validation) masks out objects that aren't useful for training.       
+
+
+
+
+### Files:
+- aerial_map - an aerial map used when rasterisation is performed with mode "py_satellite"
+- semantic_map - a high definition semantic map used when rasterisation is performed with mode "py_semantic"
+- sample.zarr - a small sample set, designed for exploration
+- train.zarr - the training set, in .zarr format
+- validate.zarr - a validation set (roughly the size of train)
+- test.csv - the test set, in .zarr format
+- mask.npz - a boolean mask for the test set. All and only the agents included in the mask should be submitted
+- *sample_submission.csv - two sample submissions, one in multi-mode format, the other in single-mode
+
 
 # Code Requirements
 ## This is a Code Competition
@@ -85,24 +95,38 @@ Freely & publicly available external data is allowed, including pre-trained mode
 
 Submission file must be named submission.csv
 
+# Kaggle Lyft Competition Update
+- 1. Pytorch Update 
+- 2. Ensamble Update
+
+------
+
 # 1. Pytorch Update
+
+## Issue --- Takes much time to compute (>9 hours)
+-> W/ kaggle notebook is required in Testing/Prediction
+
+### ideas:
+-> Separate Training from Testing/Prediction
+
+-> W/O kaggle notebook in Training
+
 
 ## Lyft Competition Plan/strategy for higher LB Score
 
-## Pytorch Baseline
+## Pytorch process
 
 ### 1 Settup Dependencies
 ### 2 Load Datasets
 ### 3 Define a Model (CNN)
 - Model
 - Parameters
-### 4 Train the Model --- Takes much time (>9 hours)
--> Separate Training from Testing/Prediction
--> W/O kaggle notebook. 
+### 4 Train the Model
+
 
 - Save the model
 ### 5 Prediction
--> W/ kaggle notebook
+
 - load the model
 - Test the model
 ### 6 Submit
