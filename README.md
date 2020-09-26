@@ -63,9 +63,9 @@ https://github.com/lyft/l5kit/blob/master/data_format.md
 https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 
-# Kaggle Lyft Compatition
-- Pytorch Update 
-- Ensamble Update
+# Kaggle Lyft Competition Update
+- 1. Pytorch Update 
+- 2. Ensamble Update
 
 
 # 1. Pytorch Update
