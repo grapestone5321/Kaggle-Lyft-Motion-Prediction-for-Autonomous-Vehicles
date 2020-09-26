@@ -103,6 +103,7 @@ Submission file must be named submission.csv
 # Kaggle Lyft Competition Update
 ## Lyft Competition Plan/strategy for higher LB Score
 ### 1. Pytorch Update 
+- Pytorch process
 
 - Dependency of parameters/models on LB score
 
