@@ -191,6 +191,21 @@ https://github.com/lyft/l5kit/blob/master/how_to_contribute.md
 
 ------
 
+
+    model_resnet34_output_1000-chop.pth 'lr': 1e-4   (--- ver.57)
+    #nn.Dropout(0.2)  LB: 2840.352   --- ver.65
+    nn.Dropout(0.2)   LB:   84.224   --- ver.64
+    nn.Dropout(0.2)   LB:   84.211   --- ver.60
+
+    0918-predictor-full/0918_predictor_full.pt
+    #nn.Dropout(0.2)  LB: 451990.306   --- ver.62
+    nn.Dropout(0.2)   LB:   7469.120   --- ver.61
+    
+    model_multi_update_lyft_public.pth
+    nn.Dropout(0.2)   LB:              --- ver.67
+    
+    
+
 # 2. Ensamble Update
 ### Dependency of weights on LB Score
 - Combine solutions [1, 2, 3, 4]
